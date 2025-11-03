@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(BG.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav__bar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0.0,0.4);
+}
+.logo{
+    width: 60px;
+    height: auto;
+    padding: 20px 100px;
+}
+.nav__bar ul{
+    float: right;
+    margin-right: 2;   
+}
+
+.nav__bar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.nav__bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-style: 20px;
+    padding: 6px 13px; ;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav__bar ul li a.active{
+    background-color: red;
+    border-radius: 2px;
+}
